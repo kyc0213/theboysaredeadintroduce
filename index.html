@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TheBoysAreDead
+        </title>
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+        <style>
+            a {
+                color:black;
+            }
+            a:hover {
+                text-decoration: none;
+                color: black;
+            }
+            #mainImage > div:nth-child(2) img {
+                bottom: 0;
+                transition: bottom .3s ease-in-out;
+            }
+            #mainImage > div:nth-child(2):hover img {
+                bottom: 30px;
+            }
+            #mainImage > div:nth-child(3) img {
+                bottom: 0;
+                transition: bottom .3s ease-in-out;
+            }
+            #mainImage > div:nth-child(3):hover img {
+                bottom: 30px;
+            }
+            #mainImage > div:nth-child(4) img {
+                bottom: 0;
+                transition: bottom .3s ease-in-out;
+            }
+            #mainImage > div:nth-child(4):hover img {
+                bottom: 30px;
+            }
+            .maincard{
+                text-align: center;
+                font-weight: bold;
+                font-size: 20px;
+                margin-top: 3rem;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav style="display: flex; padding: 2rem;">
+            <a href="/theboysaredead_Home.html">
+            <div style="
+                width: 150px;
+                height: 150px;
+                flex: 0 0 150px;
+                background-color: black;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                ">
+                <img src="img/logo.png" style="width: 75%; height: 75%;" />
+            </div>
+            </a>
+
+
+            <div style="flex: 0 0 calc(100% - 150px); align-items: center; display: flex;">
+                <ul style="list-style: none; display: flex; font-size: 1.5rem; ">
+                    <li class="mx-4"><a href="/index.html">HOME</a></li>
+                    <li class="mx-4"><a href="/theboysaredead_Outer.html">OUTER</a></li>
+                    <li class="mx-4"><a href="/theboysaredead_Top.html">TOP</a></li>
+                    <li class="mx-4"><a href="/theboysaredead_Bottom.html">BOTTOM</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main">
+            <div class="aside" style="
+                height: 500px;
+                width: calc(150px + 4rem);
+                position: relative;">
+                <ul style="list-style: none; font-size: 1.5rem; text-align: center; padding: 0;">
+                    <li class="mb-4"><a href="https://www.instagram.com/tbad.official/">INSTAGRAM</a></li>
+                </ul>
+            </div>
+
+            <div class="row" style="min-width: 1200px; height: 500px; position: relative; bottom: 400px" id="mainImage">
+                <div class="col"></div>
+
+                <div class="col">
+                    <a href="/theboysaredead_Outer.html">
+                    <img src="img/Main/Main outer.jpg" class="w-100" style=
+                    "border-radius: 1.5rem; 
+                    box-shadow: 0px 5px 10px rgba(0,0,0,.5);
+                    position: relative;"
+                    />
+                    <div class="maincard">OUTER</div>
+                    
+                    </a>
+                </div>
+
+
+                <div class="col">
+                    <a href="/theboysaredead_Top.html">
+                    <img src="img/Main/Main top.jpg" class="w-100" style=
+                    "border-radius: 1.5rem;
+                    box-shadow: 0px 5px 10px rgba(0,0,0,.5);
+                    position: relative;"
+                    />
+                    <div class="maincard">TOP</div>
+                    </a>
+                </div>
+
+
+                <div class="col">
+                    <a href="/theboysaredead_Pants.html">
+                    <img src="img/Main/Main pants.jpg" class="w-100" style=
+                    "border-radius: 1.5rem; 
+                    box-shadow: 0px 5px 10px rgba(0,0,0,.5);
+                    position: relative;"
+                    />
+                    <div class="maincard">BOTTOM</div>
+                    </a>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </body>
+</html>
